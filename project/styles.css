@@ -1,0 +1,44 @@
+.elem {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.dropbtn {  
+    background-color: rgb(51, 47, 47);  
+    color: rgb(186, 186, 186);  
+    padding: 10px;  
+    font-size: 12px; 
+    width: 100px;
+}  
+.dropdown {  
+    display: inline-block;  
+    position: relative; 
+}  
+.dropdown-content {  
+    position: absolute;  
+    background-color: lightgrey;  
+    min-width: 90px;  
+    display: none;  
+    z-index: 1;  
+    
+}  
+.dropdown-content a {  
+    color: rgb(126, 117, 117);  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+.dropdown-content a:hover {  
+    background-color: rgb(141, 132, 117);  
+}  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+.dropdown:hover .dropbtn {  
+    background-color: grey;  
+}  
